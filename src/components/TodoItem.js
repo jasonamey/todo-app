@@ -74,7 +74,6 @@ const TodoItemWrapper = styled.li`
       margin-right: 22px;
       &.grey {
         background: ${({ theme }) => theme.appDiminishedColor};
-        // background: "#5D5E6F";
       }
       &.purple {
         background: -webkit-linear-gradient(left top, #70bff7 0%, #a774f2 100%);
@@ -92,15 +91,15 @@ const TodoItemWrapper = styled.li`
       font-size: 16px;
       font-weight: bold;
     }
-
     .finished {
       text-decoration-line: line-through;
-
       color: ${({ theme }) => theme.appDiminishedColor};
     }
   }
   .delete-btn {
     cursor: pointer;
+  }
+  @media only screen and (max-width: 470px) {
   }
 `;
 
